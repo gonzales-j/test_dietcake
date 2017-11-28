@@ -1,0 +1,1482 @@
+[27-Nov-2017 06:04:15 UTC] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 06:11:44 UTC] PHP Parse error:  parse error in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 8
+[27-Nov-2017 06:12:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(36): PDO->setAttribute(13, Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(120): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/te in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 36
+[27-Nov-2017 06:13:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(36): PDO->setAttribute(13, Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(120): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/te in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 36
+[27-Nov-2017 06:13:31 UTC] PHP Fatal error:  Uncaught exception 'DCException' with message 'invalid url format' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:29
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(6): Dispatcher::parseAction('threads')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 29
+[27-Nov-2017 06:16:25 UTC] PHP Fatal error:  Uncaught exception 'DCException' with message 'invalid url format' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:29
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(6): Dispatcher::parseAction('threads')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 29
+[27-Nov-2017 06:16:28 UTC] PHP Fatal error:  Uncaught exception 'DCException' with message 'invalid url format' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:29
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(6): Dispatcher::parseAction('threads')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 29
+[27-Nov-2017 06:16:33 UTC] PHP Fatal error:  Uncaught exception 'DCException' with message 'invalid url format' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:29
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(6): Dispatcher::parseAction('threads')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 29
+[27-Nov-2017 06:17:28 UTC] PHP Fatal error:  Uncaught exception 'DCException' with message 'invalid url format' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:29
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(6): Dispatcher::parseAction('threads')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 29
+[27-Nov-2017 06:17:53 UTC] PHP Fatal error:  Uncaught exception 'DCException' with message 'invalid url format' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:29
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(6): Dispatcher::parseAction('threads')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 29
+[27-Nov-2017 06:22:53 UTC] PHP Fatal error:  Uncaught exception 'DCException' with message 'invalid url format' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:29
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(6): Dispatcher::parseAction('threads')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 29
+[27-Nov-2017 06:22:55 UTC] PHP Fatal error:  Uncaught exception 'DCException' with message 'invalid url format' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:29
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(6): Dispatcher::parseAction('threads')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 29
+[27-Nov-2017 06:25:16 UTC] PHP Fatal error:  Uncaught exception 'DCException' with message 'invalid url format' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:29
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(6): Dispatcher::parseAction('threads')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 29
+[27-Nov-2017 06:25:36 UTC] PHP Fatal error:  Uncaught exception 'DCException' with message 'invalid url format' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:29
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(6): Dispatcher::parseAction('threads')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 29
+[27-Nov-2017 06:27:50 UTC] PHP Fatal error:  Uncaught exception 'DCException' with message 'invalid url format' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:29
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(6): Dispatcher::parseAction('threads')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 29
+[27-Nov-2017 06:29:02 UTC] PHP Fatal error:  Uncaught exception 'DCException' with message 'invalid url format' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:29
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(6): Dispatcher::parseAction('threads')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 29
+[27-Nov-2017 06:29:11 UTC] PHP Fatal error:  Uncaught exception 'DCException' with message 'invalid url format' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:29
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(6): Dispatcher::parseAction('threads')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 29
+[27-Nov-2017 06:34:02 UTC] PHP Warning:  require(/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php): failed to open stream: No such file or directory in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 06:34:02 UTC] PHP Fatal error:  require(): Failed opening required '/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php' (include_path='.:') in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 06:43:22 UTC] PHP Warning:  require(/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php): failed to open stream: No such file or directory in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 06:43:22 UTC] PHP Fatal error:  require(): Failed opening required '/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php' (include_path='.:') in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 06:43:24 UTC] PHP Warning:  require(/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php): failed to open stream: No such file or directory in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 06:43:24 UTC] PHP Fatal error:  require(): Failed opening required '/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php' (include_path='.:') in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 06:43:54 UTC] PHP Warning:  require(/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php): failed to open stream: No such file or directory in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 06:43:54 UTC] PHP Fatal error:  require(): Failed opening required '/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php' (include_path='.:') in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 06:43:56 UTC] PHP Warning:  require(/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php): failed to open stream: No such file or directory in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 06:43:56 UTC] PHP Fatal error:  require(): Failed opening required '/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php' (include_path='.:') in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 06:44:09 UTC] PHP Warning:  require(/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php): failed to open stream: No such file or directory in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 06:44:09 UTC] PHP Fatal error:  require(): Failed opening required '/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php' (include_path='.:') in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 06:44:26 UTC] PHP Warning:  require(/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php): failed to open stream: No such file or directory in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 06:44:26 UTC] PHP Fatal error:  require(): Failed opening required '/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php' (include_path='.:') in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 06:52:56 UTC] PHP Fatal error:  Uncaught exception 'DCException' with message 'ThreadsController is not found' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:42
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(8): Dispatcher::getController('threads')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 42
+[27-Nov-2017 06:53:09 UTC] PHP Fatal error:  Uncaught exception 'DCException' with message 'ThreadsController is not found' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:42
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(8): Dispatcher::getController('threads')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 42
+[27-Nov-2017 06:53:11 UTC] PHP Fatal error:  Uncaught exception 'DCException' with message 'ThreadsController is not found' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:42
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(8): Dispatcher::getController('threads')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 42
+[27-Nov-2017 06:53:29 UTC] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[27-Nov-2017 06:58:15 UTC] PHP Warning:  require(/Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php): failed to open stream: No such file or directory in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 06:58:15 UTC] PHP Fatal error:  require(): Failed opening required '/Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php' (include_path='.:') in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 06:58:25 UTC] PHP Fatal error:  Uncaught exception 'DCException' with message 'ThreadController is not found' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:42
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(8): Dispatcher::getController('thread')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 42
+[27-Nov-2017 06:58:45 UTC] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[27-Nov-2017 06:59:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(36): PDO->setAttribute(13, Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(120): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/te in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 36
+[27-Nov-2017 06:59:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(36): PDO->setAttribute(13, Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(120): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/te in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 36
+[27-Nov-2017 07:06:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(36): PDO->setAttribute(13, Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(120): SimpleDBI->__construct(NULL, 'mysql:host=127....', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/te in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 36
+[27-Nov-2017 07:06:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(36): PDO->setAttribute(13, Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(120): SimpleDBI->__construct(NULL, 'mysql:host=127....', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/te in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 36
+[27-Nov-2017 07:07:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:30
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(30): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(120): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#7 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 30
+[27-Nov-2017 07:07:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:30
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(30): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(120): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#7 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 30
+[27-Nov-2017 07:07:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No such file or directory' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:30
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(30): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(120): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#7 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 30
+[27-Nov-2017 07:10:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(36): PDO->setAttribute(13, Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(120): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/te in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 36
+[27-Nov-2017 07:24:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(36): PDO->setAttribute(13, Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(120): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/te in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 36
+[27-Nov-2017 07:24:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(36): PDO->setAttribute(13, Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(120): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/te in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 36
+[27-Nov-2017 07:27:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(36): PDO->setAttribute(13, Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(120): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/te in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 36
+[27-Nov-2017 07:27:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(36): PDO->setAttribute(13, Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(120): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/te in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 36
+[27-Nov-2017 07:28:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(36): PDO->setAttribute(13, Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(120): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/te in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 36
+[27-Nov-2017 07:28:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(36): PDO->setAttribute(13, Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(120): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/te in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 36
+[27-Nov-2017 07:28:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(36): PDO->setAttribute(13, Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(120): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/te in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 36
+[27-Nov-2017 07:29:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(36): PDO->setAttribute(13, Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(120): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/te in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 36
+[27-Nov-2017 07:29:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(36): PDO->setAttribute(13, Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(120): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/te in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 36
+[27-Nov-2017 07:34:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:37
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(37): PDO->setAttribute(13, Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(122): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/te in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 37
+[27-Nov-2017 07:34:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:37
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(37): PDO->setAttribute(13, Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(122): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/te in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 37
+[27-Nov-2017 07:35:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:37
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(37): PDO->setAttribute(13, Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(122): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/te in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 37
+[27-Nov-2017 07:45:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:37
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(37): PDO->setAttribute(13, Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(122): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/te in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 37
+[27-Nov-2017 07:45:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: PDO::ATTR_STATEMENT_CLASS requires format array(classname, array(ctor_args)); the classname must be a string specifying an existing class' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:37
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(37): PDO->setAttribute(13, Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(122): SimpleDBI->__construct(NULL, 'mysql:host=loca...', 'root', '', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(7): SimpleDBI::conn()
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/te in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 37
+[27-Nov-2017 07:52:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: user-supplied statement does not accept constructor arguments' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php:301
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php(301): PDO->prepare('SELECT * FROM t...')
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php(332): SimpleDBI->query('SELECT * FROM t...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(8): SimpleDBI->rows('SELECT * FROM t...')
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php on line 301
+[27-Nov-2017 07:52:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: user-supplied statement does not accept constructor arguments' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php:301
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php(301): PDO->prepare('SELECT * FROM t...')
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php(332): SimpleDBI->query('SELECT * FROM t...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(8): SimpleDBI->rows('SELECT * FROM t...')
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php on line 301
+[27-Nov-2017 07:52:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: user-supplied statement does not accept constructor arguments' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php:301
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php(301): PDO->prepare('SELECT * FROM t...')
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php(332): SimpleDBI->query('SELECT * FROM t...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(8): SimpleDBI->rows('SELECT * FROM t...')
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php on line 301
+[27-Nov-2017 07:52:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: user-supplied statement does not accept constructor arguments' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php:301
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php(301): PDO->prepare('SELECT * FROM t...')
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php(332): SimpleDBI->query('SELECT * FROM t...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(8): SimpleDBI->rows('SELECT * FROM t...')
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php on line 301
+[27-Nov-2017 07:52:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: user-supplied statement does not accept constructor arguments' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php:301
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php(301): PDO->prepare('SELECT * FROM t...')
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php(332): SimpleDBI->query('SELECT * FROM t...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(8): SimpleDBI->rows('SELECT * FROM t...')
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php on line 301
+[27-Nov-2017 07:55:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: user-supplied statement does not accept constructor arguments' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php:197
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php(197): PDO->prepare('SELECT * FROM t...')
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php(221): SimpleDBI->query('SELECT * FROM t...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(8): SimpleDBI->rows('SELECT * FROM t...')
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(7): Thread::getAll()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->index()
+#5 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#6 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/src/SimpleDBI.php on line 197
+[27-Nov-2017 07:59:16 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /Users/josemiguelgonzales/test/board2/board/app/config/log.php on line 91
+[27-Nov-2017 07:59:16 UTC] PHP Warning:  date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /Users/josemiguelgonzales/test/board2/board/app/config/log.php on line 91
+[27-Nov-2017 07:59:16 UTC] PHP Notice:  Use of undefined constant ’thread - assumed '’thread' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 07:59:16 UTC] PHP Notice:  Use of undefined constant view’ - assumed 'view’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 07:59:16 UTC] PHP Warning:  Division by zero in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 07:59:16 UTC] PHP Notice:  Use of undefined constant ’thread_id’ - assumed '’thread_id’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 07:59:16 UTC] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 16:02:04 Asia/Manila] PHP Notice:  Use of undefined constant ’thread - assumed '’thread' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 16:02:04 Asia/Manila] PHP Notice:  Use of undefined constant view’ - assumed 'view’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 16:02:04 Asia/Manila] PHP Warning:  Division by zero in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 16:02:04 Asia/Manila] PHP Notice:  Use of undefined constant ’thread_id’ - assumed '’thread_id’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 16:02:04 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 16:02:06 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'Thread<br><b>Notice<B>:UseOfUndefinedConstant’thread-Assumed'’thread'In<b>UsersJosemiguelgonzalesTestBoard2BoardAppViewsThreadIndex.php<B>OnLine<b>5<B><br><br><b>Notice<B>:UseOfUndefinedConstantView’-Assumed'view’'In<b>UsersJosemiguelgonzalesTestBoard2BoardAppViewsThreadIndex.php<B>OnLine<b>5<B><br><br><b>Warning<B>:DivisionByZeroIn<b>UsersJosemiguelgonzalesTestBoard2BoardAppViewsThreadIndex.php<B>OnLine<b>5<B><br><br><b>Notice<B>:UseOfUndefinedConstant’threadId’-Assumed'’threadId’'In<b>UsersJosemiguelgonzalesTestBoard2BoardAppViewsThreadIndex.php<B>OnLine<b>5<B><br>Controller is not found' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:42
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(8): Dispatcher::getController('thread_<br _><b...')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 42
+[27-Nov-2017 16:05:43 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[27-Nov-2017 16:05:44 Asia/Manila] PHP Warning:  require(/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php): failed to open stream: No such file or directory in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 16:05:44 Asia/Manila] PHP Fatal error:  require(): Failed opening required '/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php' (include_path='.:') in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 16:05:45 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'invalid url format' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:29
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(6): Dispatcher::parseAction('threads')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 29
+[27-Nov-2017 16:05:49 Asia/Manila] PHP Warning:  require(/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php): failed to open stream: No such file or directory in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 16:05:49 Asia/Manila] PHP Fatal error:  require(): Failed opening required '/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php' (include_path='.:') in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 16:05:50 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'invalid url format' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:29
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(6): Dispatcher::parseAction('threads')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 29
+[27-Nov-2017 16:05:50 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[27-Nov-2017 16:05:51 Asia/Manila] PHP Notice:  Use of undefined constant ’thread - assumed '’thread' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 16:05:51 Asia/Manila] PHP Notice:  Use of undefined constant view’ - assumed 'view’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 16:05:51 Asia/Manila] PHP Warning:  Division by zero in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 16:05:51 Asia/Manila] PHP Notice:  Use of undefined constant ’thread_id’ - assumed '’thread_id’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 16:05:51 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 16:05:52 Asia/Manila] PHP Notice:  Use of undefined constant ’thread - assumed '’thread' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 16:05:52 Asia/Manila] PHP Notice:  Use of undefined constant view’ - assumed 'view’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 16:05:52 Asia/Manila] PHP Warning:  Division by zero in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 16:05:52 Asia/Manila] PHP Notice:  Use of undefined constant ’thread_id’ - assumed '’thread_id’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 16:05:52 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 16:13:22 Asia/Manila] PHP Parse error:  parse error in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 18
+[27-Nov-2017 16:13:53 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 16:13:53 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 16:13:53 Asia/Manila] PHP Notice:  Use of undefined constant ’thread - assumed '’thread' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 6
+[27-Nov-2017 16:13:53 Asia/Manila] PHP Notice:  Use of undefined constant view’ - assumed 'view’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 6
+[27-Nov-2017 16:13:53 Asia/Manila] PHP Warning:  Division by zero in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 6
+[27-Nov-2017 16:13:53 Asia/Manila] PHP Notice:  Use of undefined constant ’thread_id’ - assumed '’thread_id’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 6
+[27-Nov-2017 16:13:53 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 16:14:02 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'Thread<br><b>Notice<B>:UseOfUndefinedConstant’thread-Assumed'’thread'In<b>UsersJosemiguelgonzalesTestBoard2BoardAppViewsThreadIndex.php<B>OnLine<b>6<B><br><br><b>Notice<B>:UseOfUndefinedConstantView’-Assumed'view’'In<b>UsersJosemiguelgonzalesTestBoard2BoardAppViewsThreadIndex.php<B>OnLine<b>6<B><br><br><b>Warning<B>:DivisionByZeroIn<b>UsersJosemiguelgonzalesTestBoard2BoardAppViewsThreadIndex.php<B>OnLine<b>6<B><br><br><b>Notice<B>:UseOfUndefinedConstant’threadId’-Assumed'’threadId’'In<b>UsersJosemiguelgonzalesTestBoard2BoardAppViewsThreadIndex.php<B>OnLine<b>6<B><br>Controller is not found' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:42
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(8): Dispatcher::getController('thread_<br _><b...')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 42
+[27-Nov-2017 17:37:15 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 17:37:15 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 17:37:15 Asia/Manila] PHP Notice:  Use of undefined constant ’thread - assumed '’thread' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 6
+[27-Nov-2017 17:37:15 Asia/Manila] PHP Notice:  Use of undefined constant view’ - assumed 'view’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 6
+[27-Nov-2017 17:37:15 Asia/Manila] PHP Warning:  Division by zero in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 6
+[27-Nov-2017 17:37:15 Asia/Manila] PHP Notice:  Use of undefined constant ’thread_id’ - assumed '’thread_id’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 6
+[27-Nov-2017 17:37:15 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 18:23:04 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'invalid url format' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:29
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(6): Dispatcher::parseAction('threads')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 29
+[27-Nov-2017 18:23:10 Asia/Manila] PHP Warning:  require(/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php): failed to open stream: No such file or directory in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 18:23:10 Asia/Manila] PHP Fatal error:  require(): Failed opening required '/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php' (include_path='.:') in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 18:23:11 Asia/Manila] PHP Warning:  require(/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php): failed to open stream: No such file or directory in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 18:23:11 Asia/Manila] PHP Fatal error:  require(): Failed opening required '/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php' (include_path='.:') in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 18:23:11 Asia/Manila] PHP Warning:  require(/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php): failed to open stream: No such file or directory in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 18:23:11 Asia/Manila] PHP Fatal error:  require(): Failed opening required '/Users/josemiguelgonzales/test/board2/board/app/controllers/threads_controller.php' (include_path='.:') in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 22
+[27-Nov-2017 18:23:19 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[27-Nov-2017 18:23:24 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[27-Nov-2017 18:23:25 Asia/Manila] PHP Notice:  Use of undefined constant ’thread - assumed '’thread' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 18:23:25 Asia/Manila] PHP Notice:  Use of undefined constant view’ - assumed 'view’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 18:23:25 Asia/Manila] PHP Warning:  Division by zero in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 18:23:25 Asia/Manila] PHP Notice:  Use of undefined constant ’thread_id’ - assumed '’thread_id’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 18:23:25 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 18:23:25 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[27-Nov-2017 18:23:26 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'invalid url format' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:29
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(6): Dispatcher::parseAction('thread')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 29
+[27-Nov-2017 18:23:45 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'invalid url format' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:29
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(6): Dispatcher::parseAction('thread')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 29
+[27-Nov-2017 18:24:06 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[27-Nov-2017 18:24:07 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 18:24:07 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 18:24:07 Asia/Manila] PHP Notice:  Use of undefined constant ’thread - assumed '’thread' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 6
+[27-Nov-2017 18:24:07 Asia/Manila] PHP Notice:  Use of undefined constant view’ - assumed 'view’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 6
+[27-Nov-2017 18:24:07 Asia/Manila] PHP Warning:  Division by zero in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 6
+[27-Nov-2017 18:24:07 Asia/Manila] PHP Notice:  Use of undefined constant ’thread_id’ - assumed '’thread_id’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 6
+[27-Nov-2017 18:24:07 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 18:24:08 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 18:24:08 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 18:24:08 Asia/Manila] PHP Notice:  Use of undefined constant ’thread - assumed '’thread' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 6
+[27-Nov-2017 18:24:08 Asia/Manila] PHP Notice:  Use of undefined constant view’ - assumed 'view’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 6
+[27-Nov-2017 18:24:08 Asia/Manila] PHP Warning:  Division by zero in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 6
+[27-Nov-2017 18:24:08 Asia/Manila] PHP Notice:  Use of undefined constant ’thread_id’ - assumed '’thread_id’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 6
+[27-Nov-2017 18:24:08 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 18:24:22 Asia/Manila] PHP Notice:  Use of undefined constant ’thread - assumed '’thread' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 18:24:22 Asia/Manila] PHP Notice:  Use of undefined constant view’ - assumed 'view’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 18:24:22 Asia/Manila] PHP Warning:  Division by zero in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 18:24:22 Asia/Manila] PHP Notice:  Use of undefined constant ’thread_id’ - assumed '’thread_id’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 18:24:22 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 18:24:25 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'Thread<br><b>Notice<B>:UseOfUndefinedConstant’thread-Assumed'’thread'In<b>UsersJosemiguelgonzalesTestBoard2BoardAppViewsThreadIndex.php<B>OnLine<b>5<B><br><br><b>Notice<B>:UseOfUndefinedConstantView’-Assumed'view’'In<b>UsersJosemiguelgonzalesTestBoard2BoardAppViewsThreadIndex.php<B>OnLine<b>5<B><br><br><b>Warning<B>:DivisionByZeroIn<b>UsersJosemiguelgonzalesTestBoard2BoardAppViewsThreadIndex.php<B>OnLine<b>5<B><br><br><b>Notice<B>:UseOfUndefinedConstant’threadId’-Assumed'’threadId’'In<b>UsersJosemiguelgonzalesTestBoard2BoardAppViewsThreadIndex.php<B>OnLine<b>5<B><br>Controller is not found' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:42
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(8): Dispatcher::getController('thread_<br _><b...')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 42
+[27-Nov-2017 18:30:23 Asia/Manila] PHP Notice:  Use of undefined constant ’thread - assumed '’thread' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 18:30:23 Asia/Manila] PHP Notice:  Use of undefined constant view’ - assumed 'view’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 18:30:23 Asia/Manila] PHP Warning:  Division by zero in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 18:30:23 Asia/Manila] PHP Notice:  Use of undefined constant ’thread_id’ - assumed '’thread_id’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 18:30:23 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 18:30:24 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'Thread<br><b>Notice<B>:UseOfUndefinedConstant’thread-Assumed'’thread'In<b>UsersJosemiguelgonzalesTestBoard2BoardAppViewsThreadIndex.php<B>OnLine<b>5<B><br><br><b>Notice<B>:UseOfUndefinedConstantView’-Assumed'view’'In<b>UsersJosemiguelgonzalesTestBoard2BoardAppViewsThreadIndex.php<B>OnLine<b>5<B><br><br><b>Warning<B>:DivisionByZeroIn<b>UsersJosemiguelgonzalesTestBoard2BoardAppViewsThreadIndex.php<B>OnLine<b>5<B><br><br><b>Notice<B>:UseOfUndefinedConstant’threadId’-Assumed'’threadId’'In<b>UsersJosemiguelgonzalesTestBoard2BoardAppViewsThreadIndex.php<B>OnLine<b>5<B><br>Controller is not found' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:42
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(8): Dispatcher::getController('thread_<br _><b...')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 42
+[27-Nov-2017 18:32:58 Asia/Manila] PHP Notice:  Use of undefined constant ’thread - assumed '’thread' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 18:32:58 Asia/Manila] PHP Notice:  Use of undefined constant view’ - assumed 'view’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 18:32:58 Asia/Manila] PHP Warning:  Division by zero in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 18:32:58 Asia/Manila] PHP Notice:  Use of undefined constant ’thread_id’ - assumed '’thread_id’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 5
+[27-Nov-2017 18:32:58 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 18:35:32 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 18:35:39 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 18:58:18 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 18:58:20 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 19:05:33 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 19:05:34 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 19:05:52 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 19:06:02 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 19:06:03 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 19:13:31 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 19:13:33 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 19:15:23 Asia/Manila] PHP Parse error:  parse error, expecting `"function (T_FUNCTION)"' in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 45
+[27-Nov-2017 19:16:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[27-Nov-2017 19:16:24 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 09:46:12 Asia/Manila] PHP Notice:  Use of undefined constant ’thread - assumed '’thread' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 11
+[28-Nov-2017 09:46:12 Asia/Manila] PHP Notice:  Use of undefined constant create’ - assumed 'create’' in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 11
+[28-Nov-2017 09:46:12 Asia/Manila] PHP Warning:  Division by zero in /Users/josemiguelgonzales/test/board2/board/app/views/thread/index.php on line 11
+[28-Nov-2017 09:46:12 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 09:46:15 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'Thread<br><b>Notice<B>:UseOfUndefinedConstant’thread-Assumed'’thread'In<b>UsersJosemiguelgonzalesTestBoard2BoardAppViewsThreadIndex.php<B>OnLine<b>11<B><br><br><b>Notice<B>:UseOfUndefinedConstantCreate’-Assumed'create’'In<b>UsersJosemiguelgonzalesTestBoard2BoardAppViewsThreadIndex.php<B>OnLine<b>11<B><br><br><b>Warning<B>:DivisionByZeroIn<b>UsersJosemiguelgonzalesTestBoard2BoardAppViewsThreadIndex.php<B>OnLine<b>11<B><br>Controller is not found' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php:42
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(8): Dispatcher::getController('thread_<br _><b...')
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php on line 42
+[28-Nov-2017 09:46:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 09:46:42 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message '/Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php is not found' in /Users/josemiguelgonzales/test/board2/board/app/app_layout_view.php:34
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/app/app_layout_view.php(23): AppLayoutView::extractAndMerge('/Users/josemigu...', Array)
+#1 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(83): AppLayoutView->render(NULL)
+#2 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(48): Controller->render()
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#4 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#5 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/app/app_layout_view.php on line 34
+[28-Nov-2017 09:47:02 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message '/Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php is not found' in /Users/josemiguelgonzales/test/board2/board/app/app_layout_view.php:34
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/app/app_layout_view.php(23): AppLayoutView::extractAndMerge('/Users/josemigu...', Array)
+#1 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(83): AppLayoutView->render(NULL)
+#2 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(48): Controller->render()
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#4 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#5 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/app/app_layout_view.php on line 34
+[28-Nov-2017 09:52:14 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 09:52:16 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 2
+[28-Nov-2017 09:52:16 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 2
+[28-Nov-2017 09:54:03 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 2
+[28-Nov-2017 09:54:03 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 2
+[28-Nov-2017 09:57:03 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 2
+[28-Nov-2017 09:57:03 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 2
+[28-Nov-2017 09:57:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 09:57:42 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 2
+[28-Nov-2017 09:57:42 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 2
+[28-Nov-2017 09:58:43 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 2
+[28-Nov-2017 09:58:43 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 2
+[28-Nov-2017 09:58:46 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 09:58:56 Asia/Manila] PHP Notice:  Undefined variable: comment in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 21
+[28-Nov-2017 09:58:56 Asia/Manila] PHP Fatal error:  Call to a member function validate() on null in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 21
+[28-Nov-2017 10:05:47 Asia/Manila] PHP Notice:  Undefined variable: comment in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 21
+[28-Nov-2017 10:05:47 Asia/Manila] PHP Fatal error:  Call to a member function validate() on null in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 21
+[28-Nov-2017 10:07:10 Asia/Manila] PHP Notice:  Undefined variable: comment in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 21
+[28-Nov-2017 10:07:10 Asia/Manila] PHP Fatal error:  Call to a member function validate() on null in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 21
+[28-Nov-2017 10:07:14 Asia/Manila] PHP Notice:  Undefined variable: comment in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 21
+[28-Nov-2017 10:07:14 Asia/Manila] PHP Fatal error:  Call to a member function validate() on null in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 21
+[28-Nov-2017 10:07:24 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:10:19 Asia/Manila] PHP Notice:  Undefined variable: comment in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 21
+[28-Nov-2017 10:10:19 Asia/Manila] PHP Fatal error:  Call to a member function validate() on null in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 21
+[28-Nov-2017 10:11:50 Asia/Manila] PHP Notice:  Undefined variable: comment in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 21
+[28-Nov-2017 10:11:50 Asia/Manila] PHP Fatal error:  Call to a member function validate() on null in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 21
+[28-Nov-2017 10:15:08 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:15:11 Asia/Manila] PHP Notice:  Undefined variable: comment in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 21
+[28-Nov-2017 10:15:11 Asia/Manila] PHP Fatal error:  Call to a member function validate() on null in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 21
+[28-Nov-2017 10:15:18 Asia/Manila] PHP Notice:  Undefined variable: comment in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 21
+[28-Nov-2017 10:15:18 Asia/Manila] PHP Fatal error:  Call to a member function validate() on null in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 21
+[28-Nov-2017 10:17:24 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:17:28 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/write.php on line 1
+[28-Nov-2017 10:17:28 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/write.php on line 1
+[28-Nov-2017 10:17:28 Asia/Manila] PHP Notice:  Undefined variable: comment in /Users/josemiguelgonzales/test/board2/board/app/views/thread/write.php on line 3
+[28-Nov-2017 10:17:28 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/write.php on line 3
+[28-Nov-2017 10:18:19 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:18:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:18:24 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:18:33 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:20:18 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:20:26 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:20:29 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:20:30 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 2
+[28-Nov-2017 10:20:30 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 2
+[28-Nov-2017 10:24:48 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 15
+[28-Nov-2017 10:24:48 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 15
+[28-Nov-2017 10:25:09 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:25:31 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:25:39 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:25:52 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:26:01 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:28:58 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:29:00 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:29:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:30:38 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:30:52 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:30:57 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:31:35 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:31:38 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:32:09 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 5
+[28-Nov-2017 10:32:09 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 5
+[28-Nov-2017 10:32:45 Asia/Manila] PHP Notice:  Undefined variable: comment in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 5
+[28-Nov-2017 10:32:45 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 5
+[28-Nov-2017 10:33:30 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 5
+[28-Nov-2017 10:33:30 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 5
+[28-Nov-2017 10:33:56 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 5
+[28-Nov-2017 10:33:56 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 5
+[28-Nov-2017 10:36:28 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:36:28 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 5
+[28-Nov-2017 10:36:28 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/create.php on line 5
+[28-Nov-2017 10:36:52 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:36:54 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:37:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:37:26 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:37:29 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:38:59 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:39:04 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:39:09 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:39:16 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:39:23 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:39:50 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:43:19 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:43:20 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:43:28 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:43:30 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:43:36 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:43:47 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:43:48 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:43:50 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:43:52 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:44:00 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:44:03 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:44:31 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:44:32 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:44:36 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:45:20 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:45:22 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:45:34 Asia/Manila] PHP Fatal error:  Uncaught exception 'ValidationException' with message 'invalid thread or comment' in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php:45
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(62): Thread->create(Object(Comment))
+#1 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->create()
+#2 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#3 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#4 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 45
+[28-Nov-2017 10:50:59 Asia/Manila] PHP Parse error:  parse error in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 58
+[28-Nov-2017 10:51:18 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:51:24 Asia/Manila] PHP Fatal error:  Uncaught exception 'ValidationException' with message 'invalid thread or comment' in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php:45
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(57): Thread->create(Object(Comment))
+#1 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->create()
+#2 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#3 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#4 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 45
+[28-Nov-2017 10:51:28 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:51:28 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:51:37 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:51:39 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:52:34 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:52:36 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:52:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:52:43 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:56:53 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:56:53 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:57:02 Asia/Manila] PHP Fatal error:  Uncaught exception 'ValidationException' with message 'invalid thread or comment' in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php:45
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(57): Thread->create(Object(Comment))
+#1 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->create()
+#2 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#3 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#4 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 45
+[28-Nov-2017 10:57:19 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:57:27 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:57:39 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:57:39 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:57:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:57:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:57:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:57:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:57:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:58:13 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:58:31 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:58:36 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[28-Nov-2017 10:58:42 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:58:45 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:58:46 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:58:57 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 10:58:58 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:15:18 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:15:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:15:23 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:15:25 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:15:26 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:15:28 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:15:30 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:15:36 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:15:37 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:16:04 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:16:20 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:16:36 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:16:42 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:16:47 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:18:22 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:18:28 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:18:32 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:18:33 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:18:37 Asia/Manila] PHP Fatal error:  Uncaught exception 'ValidationException' with message 'invalid comment' in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php:58
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(52): Thread->write(Object(Comment))
+#1 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(57): Thread->create(Object(Comment))
+#2 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->create()
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#4 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#5 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 58
+[28-Nov-2017 12:19:10 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:19:15 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:19:27 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:19:50 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:19:52 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:19:56 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:20:02 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:20:03 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:21:03 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 19 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[28-Nov-2017 12:22:33 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 19 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[28-Nov-2017 12:23:10 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 19 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[28-Nov-2017 12:23:16 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:25:46 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:25:47 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:25:56 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:26:00 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:26:01 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:26:12 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:26:13 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:26:17 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 12:26:23 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:30:58 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:35:15 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:35:16 Asia/Manila] PHP Warning:  Missing argument 1 for Thread::delete(), called in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 22 and defined in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 37
+[28-Nov-2017 13:35:16 Asia/Manila] PHP Notice:  Undefined variable: id in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 40
+[28-Nov-2017 13:35:16 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(22): Thread::delete()
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 13:35:28 Asia/Manila] PHP Warning:  Missing argument 1 for Thread::delete(), called in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 22 and defined in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 37
+[28-Nov-2017 13:35:28 Asia/Manila] PHP Notice:  Undefined variable: id in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 40
+[28-Nov-2017 13:35:28 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(22): Thread::delete()
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 13:43:29 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:44:36 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:44:38 Asia/Manila] PHP Fatal error:  Call to undefined method Param::delete() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 21
+[28-Nov-2017 13:44:54 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:44:55 Asia/Manila] PHP Fatal error:  Call to undefined method Param::deleteThread() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 21
+[28-Nov-2017 13:45:32 Asia/Manila] PHP Fatal error:  Call to undefined method Param::deleteThread() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 21
+[28-Nov-2017 13:45:38 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:45:41 Asia/Manila] PHP Fatal error:  Call to undefined method Param::deleteThread() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 21
+[28-Nov-2017 13:46:21 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(21): Thread::deleteThread('1')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 13:46:28 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:52:14 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:52:17 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:52:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:52:22 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:52:25 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(21): Thread::deleteThread('2')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 13:52:28 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:58:29 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:58:30 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:58:33 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:58:34 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:58:36 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(21): Thread::deleteThread('4')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 13:58:44 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:59:31 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:59:35 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:59:36 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:59:36 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:59:39 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:59:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:59:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:59:44 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 13:59:45 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:00:22 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(21): Thread::deleteThread('7')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 14:01:04 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:01:10 Asia/Manila] PHP Catchable fatal error:  Argument 2 passed to SimpleDBI::row() must be of the type array, string given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 40 and defined in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 235
+[28-Nov-2017 14:01:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:01:23 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:01:53 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(21): Thread::deleteThread('6')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 14:02:37 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(21): Thread::deleteThread('6')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 14:07:45 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:07:47 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(21): Thread::deleteThread('5')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 14:08:36 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(21): Thread::deleteThread('5')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 14:09:05 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:09:06 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:09:09 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:09:11 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:09:13 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:09:14 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:09:17 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:09:19 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:09:21 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(21): Thread::deleteThread('9')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 14:09:43 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:10:46 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(21): Thread::deleteThread('9')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 14:12:34 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(21): Thread::delete('9')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 14:12:39 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:12:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:12:43 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:12:44 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:12:45 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(21): Thread::delete('10')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 14:15:40 Asia/Manila] PHP Parse error:  parse error in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 50
+[28-Nov-2017 14:16:13 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:16:15 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...')
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(21): Thread::delete('8')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 14:16:19 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:23:22 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:23:22 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:23:25 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:23:26 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:23:26 Asia/Manila] PHP Fatal error:  Call to undefined method Param::delete() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 84
+[28-Nov-2017 14:23:32 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:24:59 Asia/Manila] PHP Fatal error:  Call to undefined function delete() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 84
+[28-Nov-2017 14:25:56 Asia/Manila] PHP Fatal error:  Call to undefined method Param::delete() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 84
+[28-Nov-2017 14:29:22 Asia/Manila] PHP Fatal error:  Call to undefined method Param::delete() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 84
+[28-Nov-2017 14:30:45 Asia/Manila] PHP Fatal error:  Call to undefined method Param::delete() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 84
+[28-Nov-2017 14:31:41 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...')
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(87): Thread::delete('id')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 14:31:46 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:31:50 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:31:52 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:31:53 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:31:54 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:31:57 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:31:58 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:31:59 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...')
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(87): Thread::delete('id')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 14:32:02 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:32:20 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:32:23 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:32:23 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:32:25 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:32:27 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:32:28 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:32:29 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...')
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(76): Thread::delete('15')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 14:32:31 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:35:01 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:35:05 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:35:06 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:35:19 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...')
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(76): Thread::delete('16')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 14:36:43 Asia/Manila] PHP Fatal error:  Call to undefined method Param::delete() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 76
+[28-Nov-2017 14:39:31 Asia/Manila] PHP Fatal error:  Call to undefined method Param::delete() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 76
+[28-Nov-2017 14:40:01 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...')
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(76): Thread::delete('16')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 14:43:45 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[28-Nov-2017 14:43:57 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:45:08 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[28-Nov-2017 14:45:12 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:45:13 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:45:15 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:45:16 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:45:16 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[28-Nov-2017 14:45:20 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:46:25 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[28-Nov-2017 14:50:12 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[28-Nov-2017 14:50:19 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:50:22 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[28-Nov-2017 14:50:28 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:51:22 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:51:23 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[28-Nov-2017 14:51:27 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:51:38 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:51:39 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[28-Nov-2017 14:51:48 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:52:29 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:52:32 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:52:35 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...')
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(76): Thread::deleteThread('17')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 14:52:39 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:52:59 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(40): SimpleDBI->row('DELETE FROM thr...')
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(76): Thread::deleteThread('14')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 14:53:04 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:55:14 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 42 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[28-Nov-2017 14:55:22 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:55:25 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:55:26 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:55:27 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:55:29 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:55:30 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:55:31 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:55:32 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:55:34 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:55:40 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 42 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[28-Nov-2017 14:56:15 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(41): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(76): Thread::deleteThread('17')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 14:56:55 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 14:56:57 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(41): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(76): Thread::deleteThread('19')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 14:57:02 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:02:46 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:249
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(249): PDOStatement->fetchAll(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(41): SimpleDBI->rows('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(76): Thread::deleteThread('17')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 249
+[28-Nov-2017 15:03:05 Asia/Manila] PHP Catchable fatal error:  Argument 2 passed to SimpleDBI::rows() must be of the type array, string given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 41 and defined in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 246
+[28-Nov-2017 15:03:27 Asia/Manila] PHP Catchable fatal error:  Argument 2 passed to SimpleDBI::row() must be of the type array, string given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 41 and defined in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 235
+[28-Nov-2017 15:12:19 Asia/Manila] PHP Notice:  Undefined variable: row in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 42
+[28-Nov-2017 15:12:19 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, null given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 42 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[28-Nov-2017 15:12:25 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:12:27 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:12:29 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:12:30 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:12:31 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[28-Nov-2017 15:12:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:13:38 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:13:39 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[28-Nov-2017 15:16:53 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[28-Nov-2017 15:16:54 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[28-Nov-2017 15:16:56 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:17:03 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:17:06 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(42): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(76): Thread::delete('20')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 15:17:10 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:17:11 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(42): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(76): Thread::delete('18')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 15:17:32 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:17:33 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:17:36 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:17:37 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:17:38 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:17:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:17:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:17:42 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:17:44 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:17:45 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:17:46 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:17:49 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:17:50 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:17:51 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:17:54 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:17:56 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:18:01 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(42): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(76): Thread::delete('5')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 15:44:09 Asia/Manila] PHP Catchable fatal error:  Argument 2 passed to SimpleDBI::row() must be of the type array, string given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 42 and defined in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 235
+[28-Nov-2017 15:44:52 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(42): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(76): Thread::delete('5')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 15:46:50 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM thread WHERE id = 5' at line 1' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBIStatement.php:19
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBIStatement.php(19): PDOStatement->execute(Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(223): SimpleDBIStatement->execute(Array)
+#2 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(237): SimpleDBI->query('SELECT FROM thr...', Array)
+#3 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(43): SimpleDBI->row('SELECT FROM thr...', Array)
+#4 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(76): Thread::delete('5')
+#5 /Users/josemiguelgonzales/test/board2/board/ in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBIStatement.php on line 19
+[28-Nov-2017 15:47:02 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 44 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[28-Nov-2017 15:48:03 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 44 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[28-Nov-2017 15:48:11 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:48:12 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:48:13 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:48:15 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:48:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:48:42 Asia/Manila] PHP Notice:  Array to string conversion in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 43
+[28-Nov-2017 15:49:10 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(42): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(76): Thread::delete('4')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 15:49:34 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php:238
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(238): PDOStatement->fetch(2)
+#1 /Users/josemiguelgonzales/test/board2/board/app/models/thread.php(42): SimpleDBI->row('DELETE FROM thr...', Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(76): Thread::delete('4')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php on line 238
+[28-Nov-2017 15:53:00 Asia/Manila] PHP Parse error:  parse error in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 45
+[28-Nov-2017 15:53:15 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 47
+[28-Nov-2017 15:53:30 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_end.php on line 1
+[28-Nov-2017 15:53:30 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:53:33 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:53:34 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:53:36 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_end.php on line 1
+[28-Nov-2017 15:53:36 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:53:37 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:53:39 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:53:40 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_end.php on line 1
+[28-Nov-2017 15:53:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:54:14 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:54:15 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:54:16 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:54:16 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:54:18 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:55:15 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:56:54 Asia/Manila] PHP Parse error:  parse error, expecting `"function (T_FUNCTION)"' in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 19
+[28-Nov-2017 15:57:11 Asia/Manila] PHP Parse error:  parse error, expecting `"function (T_FUNCTION)"' in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 90
+[28-Nov-2017 15:57:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:57:28 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:57:29 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:57:38 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:57:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:57:54 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:57:55 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 15:58:25 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 16:02:53 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 16:02:54 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComments() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 93
+[28-Nov-2017 16:02:58 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 16:02:59 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComments() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 93
+[28-Nov-2017 16:07:14 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 93
+[28-Nov-2017 16:10:05 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 93
+[28-Nov-2017 16:13:48 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 93
+[28-Nov-2017 16:13:52 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 16:13:53 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 93
+[28-Nov-2017 16:15:44 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 93
+[28-Nov-2017 16:16:18 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComments() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 93
+[28-Nov-2017 16:23:38 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 16:23:53 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 93
+[28-Nov-2017 16:26:00 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 94
+[28-Nov-2017 16:29:58 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 94
+[28-Nov-2017 16:30:05 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 15
+[28-Nov-2017 16:30:10 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 16:30:13 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 15
+[28-Nov-2017 16:30:44 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 16:30:45 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 94
+[28-Nov-2017 16:30:48 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 16:30:49 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 94
+[28-Nov-2017 16:30:56 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 94
+[28-Nov-2017 16:33:55 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 16:33:57 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 16:33:59 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 16:34:00 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 16:34:02 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 94
+[28-Nov-2017 16:34:04 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 94
+[28-Nov-2017 16:34:05 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 16:34:05 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 16:36:26 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComments() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 94
+[28-Nov-2017 16:37:15 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 16:37:17 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComments() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 94
+[28-Nov-2017 16:39:51 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComments() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 94
+[28-Nov-2017 16:39:56 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 16:46:05 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComments() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 94
+[28-Nov-2017 16:46:34 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 16:48:47 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComments() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 94
+[28-Nov-2017 16:48:55 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 16:48:59 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 16:54:18 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 16:54:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 16:54:22 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 16:55:56 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 16:56:33 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 16:56:49 Asia/Manila] PHP Notice:  Undefined variable: comments in /Users/josemiguelgonzales/test/board2/board/app/views/thread/view.php on line 3
+[28-Nov-2017 16:56:49 Asia/Manila] PHP Warning:  Invalid argument supplied for foreach() in /Users/josemiguelgonzales/test/board2/board/app/views/thread/view.php on line 3
+[28-Nov-2017 16:56:49 Asia/Manila] PHP Notice:  Undefined variable: v in /Users/josemiguelgonzales/test/board2/board/app/views/thread/view.php on line 32
+[28-Nov-2017 16:56:49 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/view.php on line 32
+[28-Nov-2017 16:56:49 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 16:57:12 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 16:58:22 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 17:09:16 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 17:13:22 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 17:13:54 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 17:21:17 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 17:40:34 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 17:55:11 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 17:55:55 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 17:56:06 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 17:56:35 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 17:56:55 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 18:03:10 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 51
+[28-Nov-2017 18:03:25 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 18:05:09 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 18:05:16 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:05:19 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 18:05:23 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 24
+[28-Nov-2017 18:07:55 Asia/Manila] PHP Notice:  Undefined variable: comments in /Users/josemiguelgonzales/test/board2/board/app/views/thread/view.php on line 3
+[28-Nov-2017 18:07:55 Asia/Manila] PHP Warning:  Invalid argument supplied for foreach() in /Users/josemiguelgonzales/test/board2/board/app/views/thread/view.php on line 3
+[28-Nov-2017 18:07:55 Asia/Manila] PHP Notice:  Undefined variable: v in /Users/josemiguelgonzales/test/board2/board/app/views/thread/view.php on line 32
+[28-Nov-2017 18:07:55 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/view.php on line 32
+[28-Nov-2017 18:07:55 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:09:55 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:10:05 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:10:07 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:12:49 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:13:36 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:13:49 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:13:50 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:13:50 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:14:03 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:14:05 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:14:10 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:14:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
