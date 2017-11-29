@@ -1480,3 +1480,730 @@ Stack trace:
 [28-Nov-2017 18:14:05 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
 [28-Nov-2017 18:14:10 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
 [28-Nov-2017 18:14:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:29:35 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:29:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:30:09 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:30:09 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:30:43 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:30:48 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:30:50 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:31:33 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:33:06 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[28-Nov-2017 18:33:07 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 94
+[28-Nov-2017 18:43:34 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 10:56:28 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 10:56:30 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 10:56:33 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 10:56:35 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 10:56:39 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:01:48 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:02:05 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:04:31 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:04:57 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:10:09 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:25:34 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:25:35 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:25:55 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:28:33 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:28:34 Asia/Manila] PHP Notice:  Undefined variable: comment in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 5
+[29-Nov-2017 11:28:34 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 5
+[29-Nov-2017 11:29:07 Asia/Manila] PHP Notice:  Undefined variable: comment in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 5
+[29-Nov-2017 11:29:07 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 5
+[29-Nov-2017 11:29:09 Asia/Manila] PHP Notice:  Undefined variable: comment in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 5
+[29-Nov-2017 11:29:09 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 5
+[29-Nov-2017 11:29:13 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:29:14 Asia/Manila] PHP Notice:  Undefined variable: commentsß in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 5
+[29-Nov-2017 11:29:14 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 5
+[29-Nov-2017 11:29:22 Asia/Manila] PHP Notice:  Undefined variable: commentsß in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 5
+[29-Nov-2017 11:29:22 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 5
+[29-Nov-2017 11:29:24 Asia/Manila] PHP Notice:  Undefined variable: commentsß in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 5
+[29-Nov-2017 11:29:24 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 5
+[29-Nov-2017 11:29:25 Asia/Manila] PHP Notice:  Undefined variable: commentsß in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 5
+[29-Nov-2017 11:29:25 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 5
+[29-Nov-2017 11:29:34 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on array in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 5
+[29-Nov-2017 11:31:48 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on array in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 5
+[29-Nov-2017 11:33:05 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on array in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 5
+[29-Nov-2017 11:33:38 Asia/Manila] PHP Notice:  Undefined property: Thread::$title in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 35
+[29-Nov-2017 11:33:38 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:34:47 Asia/Manila] PHP Notice:  Undefined property: Thread::$title in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 35
+[29-Nov-2017 11:34:47 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:34:49 Asia/Manila] PHP Notice:  Undefined property: Thread::$title in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 35
+[29-Nov-2017 11:34:49 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:35:08 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:36:02 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:36:05 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:37:37 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:37:46 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:37:47 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:38:26 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:38:28 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:38:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:38:52 Asia/Manila] PHP Notice:  Undefined variable: thsread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 35
+[29-Nov-2017 11:38:52 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 35
+[29-Nov-2017 11:38:52 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:38:57 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:43:04 Asia/Manila] PHP Notice:  Undefined variable: comment in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 5
+[29-Nov-2017 11:43:04 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 5
+[29-Nov-2017 11:44:32 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on array in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit.php on line 5
+[29-Nov-2017 11:45:24 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:46:01 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:46:02 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:46:05 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:46:24 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:47:23 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:47:24 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:51:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:51:58 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:52:14 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:52:16 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:52:19 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:52:34 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:52:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:52:47 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:52:51 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:56:31 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:56:48 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:56:51 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 11:56:53 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:00:08 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:00:51 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:00:53 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:00:58 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:01:09 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:02:01 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:02:04 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:09:10 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[29-Nov-2017 12:09:12 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[29-Nov-2017 12:09:16 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:09:16 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:09:19 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:09:22 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:11:34 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:11:39 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:11:43 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:11:43 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:11:44 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:11:44 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:11:44 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:11:45 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:11:52 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:11:54 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:11:56 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:11:58 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:13:13 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:13:15 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:13:17 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:13:30 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:14:15 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:14:17 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 53
+[29-Nov-2017 12:14:36 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:14:36 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 57
+[29-Nov-2017 12:17:02 Asia/Manila] PHP Warning:  Missing argument 2 for Thread::editThread(), called in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 75 and defined in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 51
+[29-Nov-2017 12:17:02 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 53
+[29-Nov-2017 12:17:02 Asia/Manila] PHP Fatal error:  Call to a member function validate() on null in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 53
+[29-Nov-2017 12:18:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:18:24 Asia/Manila] PHP Warning:  Missing argument 2 for Thread::editThread(), called in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 75 and defined in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 51
+[29-Nov-2017 12:18:24 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_thread.php on line 35
+[29-Nov-2017 12:18:24 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:18:39 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_thread.php on line 35
+[29-Nov-2017 12:18:39 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:18:54 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_thread.php on line 35
+[29-Nov-2017 12:18:54 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:22:41 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_thread.php on line 35
+[29-Nov-2017 12:22:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:26:05 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_thread.php on line 35
+[29-Nov-2017 12:26:05 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:26:48 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:27:44 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:27:58 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:01 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:04 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:25 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:25 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:25 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:26 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:26 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:26 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:26 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:26 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:27 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:27 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:27 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:27 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:28 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:28 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:31 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:39 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:43 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:53 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:28:55 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 12:29:24 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_thread.php on line 35
+[29-Nov-2017 12:29:24 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:31:14 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:31:48 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:31:49 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:31:54 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:32:18 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:32:28 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:32:33 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:32:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:32:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:32:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:32:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:32:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:32:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:32:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:32:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:32:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:32:42 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:32:42 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:32:42 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:32:43 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:34:08 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:34:10 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:34:16 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:34:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:34:49 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:35:42 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:35:43 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:35:46 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:35:53 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:36:28 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:36:33 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:36:36 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:37:02 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:42:33 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:42:37 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:42:39 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:42:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:42:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:42:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:42:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:42:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:42:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:42:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:42:51 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:42:53 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:43:02 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:47:36 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:47:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:47:42 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:47:42 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:47:43 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:47:43 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:47:44 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:47:44 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:47:44 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:47:44 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:47:45 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:47:48 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:48:00 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:48:02 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:48:07 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:48:10 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:48:10 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:48:10 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:48:10 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:48:11 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:48:11 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:48:11 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:48:11 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:48:12 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:48:12 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:48:12 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:51:01 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:51:02 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:51:03 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:51:03 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:51:04 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:51:06 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:51:06 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:51:06 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:51:09 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:51:12 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:51:18 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:51:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:51:23 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:52:39 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:52:42 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:52:43 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:52:43 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:52:43 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:52:46 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:52:47 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:52:50 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:53:18 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:53:19 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:53:20 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:53:20 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:53:20 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:53:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:53:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:53:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:53:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:53:22 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:55:08 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_end.php on line 1
+[29-Nov-2017 13:55:08 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_end.php on line 5
+[29-Nov-2017 13:55:08 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:55:15 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_end.php on line 1
+[29-Nov-2017 13:55:15 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_end.php on line 5
+[29-Nov-2017 13:55:15 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:55:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:55:23 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_end.php on line 1
+[29-Nov-2017 13:55:23 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_end.php on line 5
+[29-Nov-2017 13:55:23 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:55:27 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:56:45 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:56:47 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:56:49 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:56:53 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:56:55 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:56:57 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:57:19 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:57:22 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:57:24 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:57:38 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:57:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:57:42 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:57:43 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 13:57:44 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:04:23 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:04:30 Asia/Manila] PHP Warning:  require(/Users/josemiguelgonzales/test/board2/board/app/controllers/thread_view_controller.php): failed to open stream: No such file or directory in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 24
+[29-Nov-2017 14:04:30 Asia/Manila] PHP Fatal error:  require(): Failed opening required '/Users/josemiguelgonzales/test/board2/board/app/controllers/thread_view_controller.php' (include_path='.:') in /Users/josemiguelgonzales/test/board2/board/app/config/bootstrap.php on line 24
+[29-Nov-2017 14:05:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:05:44 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:05:47 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:05:50 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:07:49 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:07:50 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:08:31 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:10:15 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:10:18 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:10:23 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:10:28 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:10:29 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:10:34 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:11:38 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:17:38 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:17:49 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:20:17 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:20:23 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:21:00 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:21:03 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:21:05 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:21:07 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:21:09 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:21:10 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:21:12 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:21:15 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:21:17 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:21:17 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:21:19 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:21:20 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:21:22 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:21:24 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:21:34 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:22:04 Asia/Manila] PHP Notice:  Undefined variable: comments in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_thread.php on line 5
+[29-Nov-2017 14:22:04 Asia/Manila] PHP Fatal error:  Call to a member function hasError() on null in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_thread.php on line 5
+[29-Nov-2017 14:22:15 Asia/Manila] PHP Parse error:  parse error in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_thread.php on line 5
+[29-Nov-2017 14:22:32 Asia/Manila] PHP Parse error:  parse error in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_thread.php on line 5
+[29-Nov-2017 14:22:46 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:23:20 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:23:23 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:23:24 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:23:31 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:23:36 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:23:37 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:23:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:23:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:23:40 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:23:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:23:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:23:43 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:26:30 Asia/Manila] PHP Catchable fatal error:  Object of class Thread could not be converted to string in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBIStatement.php on line 19
+[29-Nov-2017 14:27:27 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:27:33 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:27:35 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:27:38 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:27:42 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:27:43 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:27:45 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:27:47 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:27:49 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:28:45 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:28:48 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:29:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:29:42 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:29:43 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:29:45 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:29:47 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:29:49 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:29:50 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:29:53 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:29:54 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:29:55 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:33:02 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:33:04 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:33:06 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 56
+[29-Nov-2017 14:33:06 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 56
+[29-Nov-2017 14:33:06 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:33:10 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:34:26 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:34:28 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 53
+[29-Nov-2017 14:34:39 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:34:43 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:34:45 Asia/Manila] PHP Notice:  Undefined variable: comment in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 54
+[29-Nov-2017 14:34:45 Asia/Manila] PHP Fatal error:  Call to a member function validate() on null in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 54
+[29-Nov-2017 14:35:09 Asia/Manila] PHP Warning:  Missing argument 2 for Thread::edit_thread(), called in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 89 and defined in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 50
+[29-Nov-2017 14:35:09 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 55
+[29-Nov-2017 14:35:09 Asia/Manila] PHP Fatal error:  Call to a member function validate() on null in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 55
+[29-Nov-2017 14:35:41 Asia/Manila] PHP Parse error:  parse error in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 89
+[29-Nov-2017 14:36:23 Asia/Manila] PHP Fatal error:  Call to a member function validate() on string in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 55
+[29-Nov-2017 14:36:56 Asia/Manila] PHP Fatal error:  Using $this when not in object context in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 53
+[29-Nov-2017 14:38:47 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 59
+[29-Nov-2017 14:38:47 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:38:51 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:38:52 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:38:53 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 59
+[29-Nov-2017 14:38:53 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:38:54 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:38:56 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:39:00 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:39:02 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 59
+[29-Nov-2017 14:39:02 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:39:24 Asia/Manila] PHP Fatal error:  Call to a member function validate() on string in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 55
+[29-Nov-2017 14:41:08 Asia/Manila] PHP Fatal error:  Call to a member function validate() on string in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 55
+[29-Nov-2017 14:41:16 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 59
+[29-Nov-2017 14:41:16 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:41:31 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:41:33 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:41:34 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:41:35 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:41:37 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:42:07 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:42:09 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:42:20 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:46:54 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:46:59 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:47:00 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:47:05 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:47:11 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:47:13 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:51:26 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 14:58:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:05:01 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:05:07 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 104
+[29-Nov-2017 15:05:57 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 104
+[29-Nov-2017 15:07:40 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 104
+[29-Nov-2017 15:07:48 Asia/Manila] PHP Notice:  Undefined property: Thread::$username in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment.php on line 30
+[29-Nov-2017 15:07:48 Asia/Manila] PHP Notice:  Undefined property: Thread::$body in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment.php on line 32
+[29-Nov-2017 15:07:48 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:22:53 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:23:00 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:23:01 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:23:08 Asia/Manila] PHP Fatal error:  Class 'NotFoundException' not found in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 119
+[29-Nov-2017 15:23:36 Asia/Manila] PHP Fatal error:  Class 'NotFoundException' not found in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 119
+[29-Nov-2017 15:24:22 Asia/Manila] PHP Fatal error:  Class 'NotFoundException' not found in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 119
+[29-Nov-2017 15:24:24 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:25:34 Asia/Manila] PHP Fatal error:  Class 'NotFoundException' not found in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 119
+[29-Nov-2017 15:31:27 Asia/Manila] PHP Fatal error:  Class 'NotFoundException' not found in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 121
+[29-Nov-2017 15:31:42 Asia/Manila] PHP Fatal error:  Class 'NotFoundException' not found in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 121
+[29-Nov-2017 15:33:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:33:25 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:33:30 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:33:32 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:33:33 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:33:36 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:33:37 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:33:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:33:45 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:33:47 Asia/Manila] PHP Fatal error:  Class 'NotFoundException' not found in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 121
+[29-Nov-2017 15:33:55 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:35:08 Asia/Manila] PHP Fatal error:  Class 'NotFoundException' not found in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 121
+[29-Nov-2017 15:35:10 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:35:12 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:35:13 Asia/Manila] PHP Fatal error:  Call to undefined method Comment::edit_comment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 115
+[29-Nov-2017 15:35:14 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:35:46 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:35:48 Asia/Manila] PHP Fatal error:  Call to undefined method Comment::edit_comment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 115
+[29-Nov-2017 15:36:26 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = '3'' at line 1' in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBIStatement.php:19
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBIStatement.php(19): PDOStatement->execute(Array)
+#1 /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBI.php(223): SimpleDBIStatement->execute(Array)
+#2 /Users/josemiguelgonzales/test/board2/board/app/models/comment.php(45): SimpleDBI->query('UPDATE comment ...', Array)
+#3 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(115): Comment::edit_comment(NULL, 'testfds', '3')
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->edit_comment()
+#5 /Users/josemiguelgonzales/test/board2/boar in /Users/josemiguelgonzales/test/board2/board/vendor/SimpleDBI/SimpleDBIStatement.php on line 19
+[29-Nov-2017 15:36:44 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment_end.php on line 1
+[29-Nov-2017 15:36:44 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment_end.php on line 1
+[29-Nov-2017 15:36:44 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment_end.php on line 5
+[29-Nov-2017 15:36:44 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment_end.php on line 5
+[29-Nov-2017 15:36:44 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:36:46 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:36:48 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:36:49 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:36:50 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:36:51 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:36:53 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:36:55 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment_end.php on line 1
+[29-Nov-2017 15:36:55 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment_end.php on line 1
+[29-Nov-2017 15:36:55 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment_end.php on line 5
+[29-Nov-2017 15:36:55 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment_end.php on line 5
+[29-Nov-2017 15:36:55 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:37:07 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:37:09 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:37:10 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:37:11 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:37:12 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:38:47 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:38:48 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment_end.php on line 1
+[29-Nov-2017 15:38:48 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment_end.php on line 1
+[29-Nov-2017 15:38:48 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment_end.php on line 5
+[29-Nov-2017 15:38:48 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment_end.php on line 5
+[29-Nov-2017 15:38:48 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:38:50 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:38:51 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:40:32 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:40:42 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:41:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:41:24 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:41:31 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment_end.php on line 5
+[29-Nov-2017 15:41:31 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment_end.php on line 5
+[29-Nov-2017 15:41:31 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:45:09 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 15:46:05 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 15:46:14 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment_end.php on line 5
+[29-Nov-2017 15:46:14 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment_end.php on line 5
+[29-Nov-2017 15:46:14 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:46:42 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 15:48:45 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 15:49:58 Asia/Manila] PHP Warning:  Creating default object from empty value in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 112
+[29-Nov-2017 15:49:58 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:50:12 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 15:50:37 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 15:53:45 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 15:54:32 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment.php on line 32
+[29-Nov-2017 15:54:32 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment.php on line 32
+[29-Nov-2017 15:54:32 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:54:34 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment.php on line 32
+[29-Nov-2017 15:54:34 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment.php on line 32
+[29-Nov-2017 15:54:34 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:55:01 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 15:55:23 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 15:55:28 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:55:31 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 15:59:06 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment.php on line 32
+[29-Nov-2017 15:59:06 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment.php on line 32
+[29-Nov-2017 15:59:06 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 15:59:19 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment.php on line 32
+[29-Nov-2017 15:59:19 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment.php on line 32
+[29-Nov-2017 15:59:19 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:00:32 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment.php on line 32
+[29-Nov-2017 16:00:32 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/edit_comment.php on line 32
+[29-Nov-2017 16:00:32 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:02:54 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:03:04 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:03:10 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:03:12 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:03:15 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:03:16 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:03:23 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:03:25 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:03:46 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:03:48 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:03:52 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:03:55 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:03:57 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:03:59 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:04:00 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:04:06 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:04:08 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:04:10 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:04:18 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:04:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:04:22 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:04:24 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:04:28 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:04:32 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[29-Nov-2017 16:06:05 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:07:28 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:07:31 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message 'action does not exist' in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php:36
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#1 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#2 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php on line 36
+[29-Nov-2017 16:07:59 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:08:01 Asia/Manila] PHP Fatal error:  Call to undefined method Comment::delete_comment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 154
+[29-Nov-2017 16:08:38 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 154
+[29-Nov-2017 16:09:46 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 154
+[29-Nov-2017 16:11:00 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:11:01 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 154
+[29-Nov-2017 16:11:41 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:11:55 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:11:59 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:12:11 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 154
+[29-Nov-2017 16:16:36 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:16:37 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 150
+[29-Nov-2017 16:17:40 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 150
+[29-Nov-2017 16:17:46 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:17:47 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 150
+[29-Nov-2017 16:18:03 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 150
+[29-Nov-2017 16:20:02 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 150
+[29-Nov-2017 16:20:17 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:20:18 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 150
+[29-Nov-2017 16:20:54 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:20:56 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 150
+[29-Nov-2017 16:21:16 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:21:18 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 150
+[29-Nov-2017 16:25:12 Asia/Manila] PHP Fatal error:  Call to undefined method Param::getComment() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 150
+[29-Nov-2017 16:25:49 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message '/Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_comment_end.php is not found' in /Users/josemiguelgonzales/test/board2/board/app/app_layout_view.php:34
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/app/app_layout_view.php(23): AppLayoutView::extractAndMerge('/Users/josemigu...', Array)
+#1 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(83): AppLayoutView->render('delete_comment_...')
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(164): Controller->render('delete_comment_...')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete_comment()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/app/app_layout_view.php on line 34
+[29-Nov-2017 16:25:56 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:25:58 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message '/Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_comment_end.php is not found' in /Users/josemiguelgonzales/test/board2/board/app/app_layout_view.php:34
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/app/app_layout_view.php(23): AppLayoutView::extractAndMerge('/Users/josemigu...', Array)
+#1 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(83): AppLayoutView->render('delete_comment_...')
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(164): Controller->render('delete_comment_...')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete_comment()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/app/app_layout_view.php on line 34
+[29-Nov-2017 16:28:35 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_comment_end.php on line 5
+[29-Nov-2017 16:28:35 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_comment_end.php on line 5
+[29-Nov-2017 16:28:35 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:30:01 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 16:34:44 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 16:34:54 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_comment_end.php on line 5
+[29-Nov-2017 16:34:54 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_comment_end.php on line 5
+[29-Nov-2017 16:34:54 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:40:21 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/comment.php on line 22 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 16:47:14 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/comment.php on line 22 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 16:49:56 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/comment.php on line 22 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 16:49:59 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:50:00 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 16:50:04 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:50:06 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:50:11 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:50:12 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:50:13 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 16:50:17 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:50:42 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:50:44 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message '/Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_comment.php is not found' in /Users/josemiguelgonzales/test/board2/board/app/app_layout_view.php:34
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/app/app_layout_view.php(23): AppLayoutView::extractAndMerge('/Users/josemigu...', Array)
+#1 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(83): AppLayoutView->render('delete_comment')
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(169): Controller->render('delete_comment')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete_comment()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/app/app_layout_view.php on line 34
+[29-Nov-2017 16:50:54 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:51:12 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:51:14 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message '/Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_comment.php is not found' in /Users/josemiguelgonzales/test/board2/board/app/app_layout_view.php:34
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/app/app_layout_view.php(23): AppLayoutView::extractAndMerge('/Users/josemigu...', Array)
+#1 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(83): AppLayoutView->render('delete_comment')
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(169): Controller->render('delete_comment')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete_comment()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/app/app_layout_view.php on line 34
+[29-Nov-2017 16:51:17 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:53:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:53:22 Asia/Manila] PHP Fatal error:  Uncaught exception 'DCException' with message '/Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_comment.php is not found' in /Users/josemiguelgonzales/test/board2/board/app/app_layout_view.php:34
+Stack trace:
+#0 /Users/josemiguelgonzales/test/board2/board/app/app_layout_view.php(23): AppLayoutView::extractAndMerge('/Users/josemigu...', Array)
+#1 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(83): AppLayoutView->render('delete_comment')
+#2 /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php(169): Controller->render('delete_comment')
+#3 /Users/josemiguelgonzales/test/board2/board/dietcake/core/controller.php(46): ThreadController->delete_comment()
+#4 /Users/josemiguelgonzales/test/board2/board/dietcake/core/dispatcher.php(12): Controller->dispatchAction()
+#5 /Users/josemiguelgonzales/test/board2/board/app/webroot/index.php(7): Dispatcher::invoke()
+#6 {main}
+  thrown in /Users/josemiguelgonzales/test/board2/board/app/app_layout_view.php on line 34
+[29-Nov-2017 16:54:22 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 16:54:26 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:54:27 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 16:54:35 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:56:02 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:56:04 Asia/Manila] PHP Fatal error:  Call to undefined method Comment::delete() in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 150
+[29-Nov-2017 16:56:16 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:56:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:56:21 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_comment_end.php on line 5
+[29-Nov-2017 16:56:21 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_comment_end.php on line 5
+[29-Nov-2017 16:56:21 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 16:56:43 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 16:57:03 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 16:58:46 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 16:58:50 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_comment_end.php on line 5
+[29-Nov-2017 16:58:50 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_comment_end.php on line 5
+[29-Nov-2017 16:58:50 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:02:07 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_comment_end.php on line 5
+[29-Nov-2017 17:02:07 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_comment_end.php on line 5
+[29-Nov-2017 17:02:07 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:06:01 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 17:06:19 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 17:06:24 Asia/Manila] PHP Fatal error:  Call to a member function delete_comment() on null in /Users/josemiguelgonzales/test/board2/board/app/controllers/thread_controller.php on line 162
+[29-Nov-2017 17:06:54 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_comment_end.php on line 5
+[29-Nov-2017 17:06:54 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_comment_end.php on line 5
+[29-Nov-2017 17:06:54 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:07:37 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 17:10:18 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_comment_end.php on line 5
+[29-Nov-2017 17:10:18 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_comment_end.php on line 5
+[29-Nov-2017 17:10:18 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:11:10 Asia/Manila] PHP Catchable fatal error:  Argument 1 passed to Model::__construct() must be of the type array, boolean given, called in /Users/josemiguelgonzales/test/board2/board/app/models/thread.php on line 38 and defined in /Users/josemiguelgonzales/test/board2/board/dietcake/core/model.php on line 8
+[29-Nov-2017 17:13:33 Asia/Manila] PHP Notice:  Undefined variable: thread in /Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_comment_end.php on line 5
+[29-Nov-2017 17:13:33 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/delete_comment_end.php on line 5
+[29-Nov-2017 17:13:33 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:13:56 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:13:59 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:14:02 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:14:05 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:14:06 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:14:07 Asia/Manila] PHP Notice:  Undefined variable: v in /Users/josemiguelgonzales/test/board2/board/app/views/thread/view.php on line 51
+[29-Nov-2017 17:14:07 Asia/Manila] PHP Notice:  Trying to get property of non-object in /Users/josemiguelgonzales/test/board2/board/app/views/thread/view.php on line 51
+[29-Nov-2017 17:14:07 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:14:14 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:14:16 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:14:33 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:14:36 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:14:37 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:14:38 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:14:57 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:14:59 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:15:00 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:15:02 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:15:04 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:15:05 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:15:09 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:15:10 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:15:12 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:15:13 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5
+[29-Nov-2017 17:15:14 Asia/Manila] PHP Notice:  Undefined variable: title in /Users/josemiguelgonzales/test/board2/board/app/views/layouts/default.php on line 5

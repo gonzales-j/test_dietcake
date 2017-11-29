@@ -47,6 +47,16 @@ class Thread extends AppModel
     }
 
 
+    public static function edit_thread($thread,$id)
+    {
+
+        $db = DB::conn();
+        $db->query(
+            "UPDATE thread SET title =? WHERE id = ?",
+            array($thread,$id)
+        );
+    }
+
 
     //delete thread
     public static function delete($id)
@@ -56,18 +66,16 @@ class Thread extends AppModel
             "DELETE FROM thread WHERE id = ?",
             array($id)
         );
-        //return new self($row);
     }
 
     //delete specific comment
-    public static function deleteComment($id)
+    public static function delete_comment($id)
     {
         $db = DB::conn();
         $db->query(
             "DELETE FROM comment WHERE id = ?",
             array($id)
         );
-        //return new self($row);
     }
 
     //create thread
@@ -75,10 +83,7 @@ class Thread extends AppModel
     {
         $this->validate();
         $comment->validate();
-        //$thread->validate();
-        //if ($this->hasError() || $comment->hasError()) {
-          //  throw new ValidationException("invalid thread or comment");
-        //}
+
         $db = DB::conn();
         $db->begin();
         $db->query("INSERT INTO thread SET title = ?, created = NOW()", array($this->title));
