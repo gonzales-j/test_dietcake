@@ -1,17 +1,36 @@
  <h1><?php eh($thread->title) ?></h1>
 
- <?php foreach ($comments as $k => $v): ?>
- <div class="comment">
-     <div class="meta">
-         <?php eh($k + 1) ?>: <?php eh($v->username) ?> <?php eh($v->created) ?>
-     </div> <div>
-         <?php eh($v->body) ?>
-         <?php echo readable_text($v->body) ?>
-     </div>
-
+ <div class="container">
+     <table class="table">
+         <thead>
+         <tr>
+             <th>No.</th>
+             <th>Username</th>
+             <th>Created</th>
+             <th>Comment</th>
+             <th>Action</th>
+         </tr>
+         </thead>
+         <tbody>
+         <?php foreach ($comments as $k => $v): ?>
+         <tr>
+             <td><?php eh($k + 1) ?></td>
+             <td><?php eh($v->username) ?></td>
+             <td><?php eh($v->created)?></td>
+             <td><?php eh($v->body)?></td>
+             <td>
+                 <a class="btn btn-primary" href="<?php eh(url("thread/edit_comment", array("comment_id" => $v->id))) ?>">
+                     <?php echo "Edit"; ?>
+                 </a>
+                 <a class="btn btn-primary" href="<?php eh(url("thread/delete_comment", array("comment_id" => $v->id))) ?>">
+                     <?php echo "Delete"; ?>
+                 </a>
+             </td>
+         </tr>
+         <?php endforeach;?>
+         </tbody>
+     </table>
  </div>
- <?php endforeach;?>
-
 
 
  <hr>
@@ -29,5 +48,5 @@
      &larr; Back to thread list
  </a>
  <div>
-     <?php echo readable_text($v->body) ?>
+     <?php // echo readable_text($v->body) ?>
  </div>
